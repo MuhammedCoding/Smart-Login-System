@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <section class="login py-5">
+        <div class="container w-50 shadow-lg p-5 text-center">
+            <h1 class="text-info pb-2">Smart Login System</h1>
+            <form action=""> 
+                <input type="text" class="form-control mb-3 bg-transparent" placeholder="Enter your name" id="username">
+                <input type="email" class="form-control mb-3 bg-transparent" placeholder="Enter your email" id="email">
+                <input type="password" class="form-control mb-3 bg-transparent" placeholder="Enter your password" id="password">
+                <span id="wrong-input" class="text-danger d-none text-center">All inputs required</span>
+                <button id="signup-btn" type="submit" class="d-block w-100 btn btn-outline-info my-3"> Signup </button>
+           </form>
+           <span class="text-white">You have an account? <a href="index.html"> Sign in</a></span>
+        </div>
+    </section>
+
+    <script src = "../javascript/signup.js"></script>
+</body>
+</html>

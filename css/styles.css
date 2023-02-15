@@ -1,0 +1,28 @@
+:root{
+    --bg-color-main : #24353F;
+}
+
+body{
+    background-color: var(--bg-color-main);
+}
+
+.container {
+    background-color: var(--bg-color-main);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+input {
+    color: white !important;
+}
+nav a:hover{
+    text-decoration: none;
+}
